@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		10DE5D7C16B2461D007DE61A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 10DE5D7B16B2461D007DE61A /* main.c */; };
 		10DE5D7E16B2461D007DE61A /* teelogger.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 10DE5D7D16B2461D007DE61A /* teelogger.1 */; };
+		10DE5D8516B24838007DE61A /* logger.c in Sources */ = {isa = PBXBuildFile; fileRef = 10DE5D8416B24838007DE61A /* logger.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,9 @@
 		10DE5D7716B2461D007DE61A /* teelogger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = teelogger; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DE5D7B16B2461D007DE61A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		10DE5D7D16B2461D007DE61A /* teelogger.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = teelogger.1; sourceTree = "<group>"; };
+		10DE5D8416B24838007DE61A /* logger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = logger.c; sourceTree = "<group>"; };
+		10DE5D8616B2484A007DE61A /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		10DE5D8716B24854007DE61A /* logger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = logger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,9 @@
 			children = (
 				10DE5D7B16B2461D007DE61A /* main.c */,
 				10DE5D7D16B2461D007DE61A /* teelogger.1 */,
+				10DE5D8416B24838007DE61A /* logger.c */,
+				10DE5D8616B2484A007DE61A /* main.h */,
+				10DE5D8716B24854007DE61A /* logger.h */,
 			);
 			path = teelogger;
 			sourceTree = "<group>";
@@ -118,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DE5D7C16B2461D007DE61A /* main.c in Sources */,
+				10DE5D8516B24838007DE61A /* logger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
